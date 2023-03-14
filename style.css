@@ -1,0 +1,19 @@
+.bg-img1{
+    background-color: #000;
+    background-size: cover;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/b/b6/Image_created_with_a_mobile_phone.png");
+}
+.bg-img2{
+    background-color: #000;
+    background-size: cover;
+    background-image: url("images/statue-of-liberty.jpg");
+}
+.bg-img3{
+    background-color: #000;
+    background-size: cover;
+    background-image: url("images/mount_rushmore.jpg");
+}
+
+img{
+    object-fit: fill;
+}
