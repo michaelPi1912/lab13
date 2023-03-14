@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"> 
+    <title>Document</title>
+</head>
+<body>
+    <div style="text-align: center;">
+        <h1 id="title">Welcome to Form</h1>
+        <p id="description">Fill Out The Form, Please!</p>
+    </div>
+    <form id="survey-form">
+        <div class="survey-form-item">
+            <label id="name-label">Name</label>
+            <input id="name" class="input-item" type="text" placeholder="Nguyen Van A" min="6" max="30" required>
+        </div>
+        <div class="survey-form-item">
+            <label id="email-label">Email</label>
+            <input id="email" class="input-item" type="email" placeholder="anv123@gmail.com" min="6" max="30" required>
+        </div>
+        <div class="survey-form-item">  
+            <label id="number-label">Age</label>
+            <input id="number" class="input-item" type="number" placeholder="18" min="6" max="30" required>
+        </div>
+        <div class="survey-form-item">  
+            <label>Role</label>
+            <select id="dropdown" class="input-item">
+                <option value="student">Student</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+        <div class="survey-form-item">  
+            <label>Language</label><br>
+            
+            <div class="radio-item">
+                <input class="input-item" type="radio" name="fav-language" value="Java">
+                <label>Java</label>
+            </div>  
+            <div class="radio-item">
+                <input class="input-item" type="radio" name="fav-language" value="C#">
+                <label>C#</label>
+            </div>  
+        </div>
+        <div class="survey-form-item">  
+            <label>Job</label><br>
+            
+            <div class="radio-item">
+                <input class="input-item" type="checkbox" name="fav-language" value="FE">
+                <label>Front-End</label>
+            </div>  
+            <div class="radio-item">
+                <input class="input-item" type="checkbox" name="fav-language" value="BE">
+                <label>Back-End</label>
+            </div>  
+            <div class="radio-item">
+                <input class="input-item" type="checkbox" name="fav-language" value="FT">
+                <label>Full-Stack</label>
+            </div>  
+        </div>
+        
+        <div class="survey-form-item">  
+            <label id="number-label">Comments</label>
+            <br>
+            <textarea placeholder="Enter your comment here..." rows="5" cols="60"></textarea>
+        </div>
+
+        <input id="submit" type="submit" value="Submit">
+    </form>
+</body>
+</html>
